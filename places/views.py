@@ -3,6 +3,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from places.models import Place
+import os
+
 '''
 class SavePlaceView(APIView):
     permission_classes = [IsAuthenticated]
@@ -52,7 +54,7 @@ class SearchPlacesView(APIView):
         location = request.query_params.get("location")  
         radius = request.query_params.get("radius", 1000)  
 
-        google_api_key = 'AIzaSyCWcrSlvbBqsLExHz0Lo_N5wvEQ1ntee7Q'
+        google_api_key = os.getenv("GOOGLE_API_KEY")
         url = f"https://maps.googleapis.com/maps/api/place/textsearch/json?query={query}&location={location}&radius={radius}&key={google_api_key}"
 
         response = requests.get(url)
