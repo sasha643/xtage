@@ -26,6 +26,8 @@ from django.urls import path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from users.views import *
 from places.views import SavePlaceView
+from django.views.decorators.csrf import csrf_exempt
+from places.schema import schema
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,5 +35,5 @@ urlpatterns = [
     path('api/login/', LoginView.as_view(), name='login'),
     path("api/save-place/", SavePlaceView.as_view(), name="save_place"),
     path("api/search-place/", SearchPlacesView.as_view(), name="search_place"),
-    path('graphql/', GraphQLView.as_view(graphiql=True), name='graphql'),
+    path("graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema)))
 ]

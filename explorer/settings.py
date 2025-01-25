@@ -43,6 +43,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://api-298313983231.us-central1.run.app"
+]
+
+
 ROOT_URLCONF = 'explorer.urls'
 
 TEMPLATES = [
