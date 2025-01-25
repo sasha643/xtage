@@ -1,5 +1,5 @@
 ## Deployment 
-- **Deployment URL (Froentend)**: https://xtagefrontend-xbscofsmz4bzh5fuhr6dfy.streamlit.app/
+- **Deployment URL (Frontend)**: https://xtagefrontend-xbscofsmz4bzh5fuhr6dfy.streamlit.app/
 - **Deployment URL (Backend)**: https://api-298313983231.us-central1.run.app/
 - The frontend has been deployed in streamlit, and the backend has been deployed in GCP artifact registry using Gloud Run.
 - Reference (Backend): https://blog.devgenius.io/deploy-a-flask-app-with-docker-google-cloud-run-and-cloud-sql-for-postgresql-6dc9e7f4c434
