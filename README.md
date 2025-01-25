@@ -135,6 +135,8 @@ This project is a Django-based API with the following key features:
     }
     ```
 
+![image](https://github.com/user-attachments/assets/907476ee-4bda-4809-a219-f6a54b15c246)
+
 ---
 
 ## Setup Instructions
