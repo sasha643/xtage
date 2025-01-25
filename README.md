@@ -1,4 +1,6 @@
-
+## Deployment 
+- **Deployment URL (Froentend)**: https://xtagefrontend-xbscofsmz4bzh5fuhr6dfy.streamlit.app/
+- **Deployment URL (Backend)**: https://api-298313983231.us-central1.run.app/graphql/
 ## Overview
 This project is a Django-based API with the following key features:
 - **SQLite database**: The database for storing user and location data.
@@ -139,7 +141,7 @@ This project is a Django-based API with the following key features:
 
 ---
 
-## Setup Instructions (Localhost)
+## Setup Instructions (Local environment)
 
 1. Install dependencies:
     ```bash
