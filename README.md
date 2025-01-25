@@ -77,7 +77,7 @@ This project is a Django-based API with the following key features:
       ]
     }
     ```
-![alt text](<WhatsApp Image 2025-01-25 at 20.22.30-1.jpeg>)
+![WhatsApp Image 2025-01-25 at 8 57 13 PM](https://github.com/user-attachments/assets/6466dff1-4193-4fec-a64b-525730eb2831)
 
 ---
 
