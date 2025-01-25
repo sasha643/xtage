@@ -3,6 +3,9 @@
 - **Deployment URL (Backend)**: https://api-298313983231.us-central1.run.app/
 - The froentend has been deployed in streamlit, and the backend has been deployed in GCP artifact registry using Gloud Run.
 - Reference (Backend): https://blog.devgenius.io/deploy-a-flask-app-with-docker-google-cloud-run-and-cloud-sql-for-postgresql-6dc9e7f4c434
+
+## GraphQL
+- **Link**: https://api-298313983231.us-central1.run.app/graphql
   
 ## Overview
 This project is a Django-based API with the following key features:
