@@ -139,7 +139,7 @@ This project is a Django-based API with the following key features:
 
 ---
 
-## Setup Instructions
+## Setup Instructions (Localhost)
 
 1. Install dependencies:
     ```bash
